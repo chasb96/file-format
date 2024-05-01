@@ -864,6 +864,9 @@ signatures! {
     format = StereolithographyAscii
     value = b"solid "
 
+    format = StereolithographyBinary
+    value = b"STLB ATF "
+
     format = ThreeDimensionalStudio
     value = b"MM", b"\x02" offset = 6, b"\n" offset = 8, b"==" offset = 16
 
